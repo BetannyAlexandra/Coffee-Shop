@@ -41,253 +41,9 @@ class HomePage extends StatelessWidget {
                   color: AppColors.beige,
                   child: ListView(
                     scrollDirection: Axis.horizontal,
-                    children: [
-                      GestureDetector(
-                        onTap: () {
-                          print(
-                            "dlkasjflaskjflkas",
-                          );
-                        },
-                        child: Container(
-                          width: 90,
+children: [ List.generate(length, generator)],
 
-                          decoration: BoxDecoration(
-                              color: AppColors.lightBeige,
-                              borderRadius: BorderRadius.circular(15)),
-                          child: const Padding(
 
-                            padding: EdgeInsets.all(2.0),
-                            child: Text(
-                              "Text",
-
-                              textAlign: TextAlign.center,
-
-                              style: TextStyle(
-                                color: AppColors.darkBrown,
-
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        width: screenWidth * 0.03,
-                      ),
-                      GestureDetector(
-                        onTap: () {
-                          print(
-                            "dlkasjflaskjflkas",
-                          );
-                        },
-                        child: Container(
-                          width: 90,
-                          height: 5,
-                          decoration: BoxDecoration(
-                              color: AppColors.lightBeige,
-                              borderRadius: BorderRadius.circular(15)),
-                          child: const Padding(
-
-                            padding: EdgeInsets.all(2.0),
-                            child: Text(
-                              "Text",
-
-                              textAlign: TextAlign.center,
-
-                              style: TextStyle(
-                                color: AppColors.darkBrown,
-
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        width: screenWidth * 0.03,
-                      ),
-                      GestureDetector(
-                        onTap: () {
-                          print(
-                            "dlkasjflaskjflkas",
-                          );
-                        },
-                        child: Container(
-                          width: 90,
-                          height: 5,
-                          decoration: BoxDecoration(
-                              color: AppColors.lightBeige,
-                              borderRadius: BorderRadius.circular(15)),
-                          child: const Padding(
-
-                            padding: EdgeInsets.all(2.0),
-                            child: Text(
-                              "Text",
-
-                              textAlign: TextAlign.center,
-
-                              style: TextStyle(
-                                color: AppColors.darkBrown,
-
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        width: screenWidth * 0.03,
-                      ),
-                      GestureDetector(
-                        onTap: () {
-                          print(
-                            "dlkasjflaskjflkas",
-                          );
-                        },
-                        child: Container(
-                          width: 90,
-                          height: 5,
-                          decoration: BoxDecoration(
-                              color: AppColors.lightBeige,
-                              borderRadius: BorderRadius.circular(15)),
-                          child: const Padding(
-
-                            padding: EdgeInsets.all(2.0),
-                            child: Text(
-                              "Text",
-
-                              textAlign: TextAlign.center,
-
-                              style: TextStyle(
-                                color: AppColors.darkBrown,
-
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        width: screenWidth * 0.03,
-                      ),
-                      GestureDetector(
-                        onTap: () {
-                          print(
-                            "dlkasjflaskjflkas",
-                          );
-                        },
-                        child: Container(
-                          width: 90,
-                          height: 5,
-                          decoration: BoxDecoration(
-                              color: AppColors.lightBeige,
-                              borderRadius: BorderRadius.circular(15)),
-                          child: const Padding(
-
-                            padding: EdgeInsets.all(2.0),
-                            child: Text(
-                              "Text",
-
-                              textAlign: TextAlign.center,
-
-                              style: TextStyle(
-                                color: AppColors.darkBrown,
-
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        width: screenWidth * 0.03,
-                      ),
-                      GestureDetector(
-                        onTap: () {
-                          print(
-                            "dlkasjflaskjflkas",
-                          );
-                        },
-                        child: Container(
-                          width: 90,
-                          height: 5,
-                          decoration: BoxDecoration(
-                              color: AppColors.lightBeige,
-                              borderRadius: BorderRadius.circular(15)),
-                          child: const Padding(
-
-                            padding: EdgeInsets.all(2.0),
-                            child: Text(
-                              "Text",
-
-                              textAlign: TextAlign.center,
-
-                              style: TextStyle(
-                                color: AppColors.darkBrown,
-
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        width: screenWidth * 0.03,
-                      ),
-                      GestureDetector(
-                        onTap: () {
-                          print(
-                            "dlkasjflaskjflkas",
-                          );
-                        },
-                        child: Container(
-                          width: 90,
-                          height: 5,
-                          decoration: BoxDecoration(
-                              color: AppColors.lightBeige,
-                              borderRadius: BorderRadius.circular(15)),
-                          child: const Padding(
-
-                            padding: EdgeInsets.all(2.0),
-                            child: Text(
-                              "Text",
-
-                              textAlign: TextAlign.center,
-
-                              style: TextStyle(
-                                color: AppColors.darkBrown,
-
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        width: screenWidth * 0.03,
-                      ),
-                      GestureDetector(
-                        onTap: () {
-                          print(
-                            "dlkasjflaskjflkas",
-                          );
-                        },
-                        child: Container(
-                          width: 90,
-                          height: 5,
-                          decoration: BoxDecoration(
-                              color: AppColors.lightBeige,
-                              borderRadius: BorderRadius.circular(15)),
-                          child: const Padding(
-
-                            padding: EdgeInsets.all(2.0),
-                            child: Text(
-                              "Text",
-
-                              textAlign: TextAlign.center,
-
-                              style: TextStyle(
-                                color: AppColors.darkBrown,
-
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
                   ))
             ],
           ),
@@ -314,5 +70,37 @@ class HomePage extends StatelessWidget {
         // ),
       ]),
     );
+  }
+
+
+
+  Widget construirContainer( String text, VoidCallback onTap){
+    return GestureDetector(
+      onTap: onTap,
+
+      child: Container(
+        width: 90,
+        height: 5,
+        decoration: BoxDecoration(
+            color: AppColors.lightBeige,
+            borderRadius: BorderRadius.circular(15)),
+        child: Padding(
+
+          padding:  EdgeInsets.all(2.0),
+          child: Text(
+text,
+            textAlign: TextAlign.center,
+
+            style: TextStyle(
+              color: AppColors.darkBrown,
+            ),
+          ),
+        ),
+      ),
+    );
+
+
+
+
   }
 }
