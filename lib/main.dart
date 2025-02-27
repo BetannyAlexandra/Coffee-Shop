@@ -1,4 +1,7 @@
+import 'package:cafeteria/screens/Options_initial.dart';
+import 'package:cafeteria/screens/home_screen.dart';
 import 'package:cafeteria/screens/initial_screen.dart';
+import 'package:cafeteria/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const TelaInicial(),
+      home: const HomePage(),
     );
   }
 }

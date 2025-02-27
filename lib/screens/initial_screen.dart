@@ -1,6 +1,7 @@
+import 'package:cafeteria/App_colors.dart';
 import 'package:cafeteria/widgets/button.dart';
 import 'package:flutter/material.dart';
-import 'button.dart';
+
 
 class TelaInicial extends StatelessWidget {
   const TelaInicial({super.key});
@@ -23,21 +24,21 @@ class TelaInicial extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
 
               children: [
-                Text("Coffe Shop",style: TextStyle(fontSize: 50,color: Colors.white,  shadows:[Shadow(
-                  offset: Offset(2.0, 2.0),
+                Text("Coffe Shop",style: TextStyle(fontSize: 50,color: AppColors.beige,  shadows:[Shadow(
+                  offset: const Offset(2.0, 2.0),
                   blurRadius: 3.0,
                   color: Colors.black.withOpacity(0.9),
                 )]),),
-                SizedBox(height: 80,),
-                Text("Enjoy the drink coffee .",style: TextStyle(fontSize: 20,color: Colors.white, shadows:[Shadow(
-                  offset: Offset(2.0, 2.0),
+                const SizedBox(height: 40,),
+                Text("Enjoy the drink coffee .",style: TextStyle(fontSize: 20,color: AppColors.lightBeige, shadows:[Shadow(
+                  offset: const Offset(2.0, 2.0),
                   blurRadius: 3.0,
                   color: Colors.black.withOpacity(0.9),
                 )]),),
 
-                SizedBox(height: 80,),
+               SizedBox(height: 80,),
 
-                Button(TextBut: "Shop Now",),
+                 Button(TextBut: "Shop Now",),
 
               ],
 
